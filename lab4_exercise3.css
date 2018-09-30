@@ -1,0 +1,69 @@
+body
+{
+	background-image: url("https://www.techgrapple.com/wp-content/uploads/2016/09/pixelete-3D-girl.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+img
+{
+	height: 120px;
+	width:	150px;
+	float:left;
+
+}
+
+
+
+div.item
+{
+	margin: auto;
+    width: 30%;
+    border: 3px solid purple;
+    padding: 25px;
+	clear: left;
+
+
+}
+
+h2	
+{
+	color: purple;
+	text-align: center;
+}
+
+p
+{
+	color: white;
+}
+
+label
+{
+	color: white;
+}
+
+input
+{
+	color: purple;
+}
+
+table.table1
+{
+	border-collapse: 3px solid white; 
+	width: 60%; 
+	height: 20%; 
+	margin: auto;
+}
+
+tr
+{
+	background-color: palegreen;
+}
+
+td
+{
+	font-weight: 900;
+}
+

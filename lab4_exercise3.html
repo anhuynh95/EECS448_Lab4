@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Interaction</title>
+	<link rel="stylesheet" href="lab4_exercise3.css">
+	<PHP> echo '<link rel="stylesheet" type="text/css" href="lab4_exercise3.css"></head>'; <PHP>
+	<script type="text/javascript"
+                 src="lab4_exercise3.js">
+     </script>
+</head>
+<body>
+	<form name="interaction" action="lab4_exercise3.php" method="get" onsubmit="return validateForm(this);">
+		<h2>Welcome to the random shop!</h2>
+		<div class="user">
+			<label>Please Login Before You Process To Check Out!</label><br>
+			<input type="text" name="username" value="">
+			<label>Username</label><br>
+			<input type="password" name="password" value="">
+			<label>Password</label><br>
+		</div>
+
+		<div class="items">
+			<div class="item">
+				<img src="https://c1.neweggimages.com/NeweggImage/ProductImageCompressAll1280/14-487-404-V10.jpg">
+				<p>EVGA GeForce RTX 2080 XC GAMING</p>
+				<p>Price per unit: $799.99</p>
+				<input type="number" name="unit1">
+				<label>Unit(s)</label><br>
+			</div><br>
+			<div class="item">
+				<img src="https://c1.neweggimages.com/NeweggImage/ProductImageCompressAll1280/34-233-236-V01.jpg">
+				<p>GIGABYTE Aero 15W Laptop</p>
+				<p>Price per unit: $1999.00</p>
+				<input type="number" name="unit2">
+				<label>Unit(s)</label><br>1
+			</div><br>
+			<div class="item">
+				<img src="https://c1.neweggimages.com/NeweggImage/ProductImageCompressAll1280/11-133-371-V15.jpg">
+				<p>Thermaltake Core P3 TG Snow ATX PC Case</p>
+				<p>Price per unit: $119.99</p>
+				<input type="number" name="unit3">
+				<label>Unit(s)</label><br>
+			</div><br>
+		</div>
+		
+		<div class="shipping">
+			<p>Please choose your shipping options.</p>
+			<input type="radio" name="shipping" value="0">
+			<label>Free 7 days</label><br>
+	 		<input type="radio" name="shipping" value="50"> 
+	 		<label> $50.00 over night</label><br>
+	 		<input type="radio" name="shipping" value="5">
+	 		<label>$5.00 three days</label><br>
+
+		</div>
+
+		<input type="reset" value="Reset">
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</body>
+</html>
