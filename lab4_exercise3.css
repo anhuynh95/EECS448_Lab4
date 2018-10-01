@@ -15,9 +15,13 @@ img
 
 }
 
+p
+{
+	color: red;
+}
 
 
-div.item
+div.items
 {
 	margin: auto;
     width: 30%;
@@ -49,7 +53,7 @@ input
 	color: purple;
 }
 
-table.table1
+table
 {
 	border-collapse: 3px solid white; 
 	width: 60%; 
